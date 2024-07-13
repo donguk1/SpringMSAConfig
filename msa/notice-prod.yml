@@ -21,4 +21,4 @@ spring:
 
   # Server Name
   application:
-    name: USER-SERVICE
+    name: NOTICE-SERVICE

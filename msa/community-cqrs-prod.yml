@@ -22,3 +22,7 @@ spring:
   # Server Name
   application:
     name: COMMUNITY-CQRS-SERVICE
+
+
+api:
+  gateway: localhost:11000

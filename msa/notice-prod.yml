@@ -1,24 +1,24 @@
-spring:
-  jpa:
-    generate-ddl: false
-    hibernate:
-      ddl-auto: none
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    properties:
-      hibernate:
-        default_batch_fetch_size: 100 # Fetch Join
-        format_sql: 'true'
-        use_sql_comments: 'true'
-    show-sql: 'true'
-    open-in-view: 'false'
-
-  datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    password: '493b7d70f339b5c3979808e28d5120156af2bcc2'
-    username: bogumjariDB_rhymewant
-    url: jdbc:mariadb://5fu.h.filess.io:3305/bogumjariDB_rhymewant
-
-  # Server Name
-  application:
-    name: NOTICE-SERVICE
+#spring:
+#  jpa:
+#    generate-ddl: false
+#    hibernate:
+#      ddl-auto: none
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    properties:
+#      hibernate:
+#        default_batch_fetch_size: 100 # Fetch Join
+#        format_sql: 'true'
+#        use_sql_comments: 'true'
+#    show-sql: 'true'
+#    open-in-view: 'false'
+#
+#  datasource:
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    password: '493b7d70f339b5c3979808e28d5120156af2bcc2'
+#    username: bogumjariDB_rhymewant
+#    url: jdbc:mariadb://5fu.h.filess.io:3305/bogumjariDB_rhymewant
+#
+#  # Server Name
+#  application:
+#    name: NOTICE-SERVICE

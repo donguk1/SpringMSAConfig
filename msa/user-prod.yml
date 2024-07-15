@@ -15,9 +15,9 @@ spring:
 
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    password: '493b7d70f339b5c3979808e28d5120156af2bcc2'
-    username: bogumjariDB_rhymewant
-    url: jdbc:mariadb://5fu.h.filess.io:3305/bogumjariDB_rhymewant
+    password: 1234
+    username: poly
+    url: jdbc:mariadb://192.168.152.129:3306/myDB
 
   # Server Name
   application:

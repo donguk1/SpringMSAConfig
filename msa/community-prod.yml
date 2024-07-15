@@ -22,3 +22,7 @@ spring:
   # Server Name
   application:
     name: COMMUNITY-SERVICE
+
+
+api:
+  gateway: localhost:11000

@@ -22,3 +22,6 @@ spring:
   # Server Name
   application:
     name: USER-SERVICE
+
+api:
+  gateway: localhost:13000

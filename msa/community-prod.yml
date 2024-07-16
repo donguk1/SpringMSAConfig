@@ -14,13 +14,13 @@ spring:
     open-in-view: 'false'
 
   datasource:
-    communityDB:
+    community-db:
       driver-class-name: org.mariadb.jdbc.Driver
       password: '1234'
       username: poly
       url: jdbc:mariadb://192.168.152.128:3306/myDB
 
-    userDB:
+    user-db:
       driver-class-name: org.mariadb.jdbc.Driver
       password: '1234'
       username: poly

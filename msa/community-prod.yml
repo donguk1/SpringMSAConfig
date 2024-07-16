@@ -18,13 +18,13 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     password: '1234'
     username: poly
-    url: jdbc:mariadb://192.168.152.128:3306/communityDB
+    jdbc-url: jdbc:mariadb://192.168.152.128:3306/communityDB
 
   second-datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     password: '1234'
     username: poly
-    url: jdbc:mariadb://192.168.152.129:3306/userDB
+    jdbc-url: jdbc:mariadb://192.168.152.129:3306/userDB
 
   # Server Name
   application:
